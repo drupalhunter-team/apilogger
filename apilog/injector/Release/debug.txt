@@ -1,0 +1,52 @@
+PE Loader v1.2
+Exe : C:\Projects\apilog13\apilog\injector\Release\hello.exe
+**IMAGE_FILE_HEADER**
+NumberOfSections     :3
+SizeOfOptionalHeader :E0
+
+**IMAGE_OPTIONAL_HEADER**
+ImageBase           : 400000
+AddressOfEntryPoint : 11D9
+SectionAlignment    : 1000
+FileAlignment       : 1000
+SizeOfImage         : B000
+
+**SECTION: 0**
+VirtualSize      : 50E8
+VirtualAddress   : 1000
+SizeOfRawData    : 6000
+PointerToRawData : 1000
+Characteristics  : 60000020
+
+**SECTION: 1**
+VirtualSize      : 1664
+VirtualAddress   : 7000
+SizeOfRawData    : 2000
+PointerToRawData : 7000
+Characteristics  : 40000040
+
+**SECTION: 2**
+VirtualSize      : 1C88
+VirtualAddress   : 9000
+SizeOfRawData    : 1000
+PointerToRawData : 9000
+Characteristics  : C0000040
+
+
+Memory for image allocated
+Header size on file: 1000
+Map section : 0
+File     Offset : 1000
+File     Size   : 6000
+Virtual Address : 401000
+
+Map section : 1
+File     Offset : 7000
+File     Size   : 2000
+Virtual Address : 407000
+
+Map section : 2
+File     Offset : 9000
+File     Size   : 1000
+Virtual Address : 409000
+

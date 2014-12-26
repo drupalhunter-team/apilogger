@@ -1,0 +1,4 @@
+EXPORTS
+	StartPlugin
+	RegisterHandler
+	

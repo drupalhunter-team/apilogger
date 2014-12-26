@@ -1,0 +1,80 @@
+
+v1.0
++ Initial release
+
+v1.1
++ DLL API calls
++ Attach to process
++ SafeMode
++ ExitThread bug fixed
++ Memory usage optimized
++ Plugin SDK defs changed
++ Module name bug
++ ECX dump parameter
++ Include/Exclude modules
+
+v1.2
++ User interface improvement
++ SafeMode=2 added
++ EAX dump parameter
++ PluginAPI improvements
+
+v1.3
++ New GUI
++ Win7 compatible
++ PE mapper
++ DXPlugin updated
+
+
+v1.4
++ More comfortable GUI 
++ DLL list print
+CreateRemoteProcess replaced with QueueUserAPC
+
+
+v1.5
+Deffered DLL Load
+Profiler
+Functions Dump
+
+21:06 22.01.2011
+v1.51
+Zero pointer bug in DxLog(IDirect3D9::CreateDevice) Plugin and SetHook function in intruder.dll
+
+
+02.02.2011
+v1.6
+Time Line added
+Better function profiler
+Win7 kernel32.dll bug found
+
+
+31.05.2011
+v1.7
+Bugfix
+
+
+12:30 14.06.2011
+GetFuncInfoById bug
+
+
+11.08.2011
+More accurate errors dump (Arvoesine reversing)
+
+
+18.08.2011
+ver 1.8
+Icon added
+Win7 x64 bug fix
+
+
+10.01.2012
+ver 1.9
+@ADDRESS fix
+Function len check 0xCC 0xCC
+
+28.03.2012
+Try decode output value as string
+
+
+Try decode output value as string

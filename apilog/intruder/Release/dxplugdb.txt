@@ -1,0 +1,12 @@
+
+;API Logger database for DXLogger plugin
+
+[ddraw.dll]
+DirectDrawCreateEx, 4
+DirectDrawCreate, 3
+
+[d3d8.dll]
+Direct3DCreate8, 1
+
+[d3d9.dll]
+Direct3DCreate9, 1

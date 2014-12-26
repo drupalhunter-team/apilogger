@@ -1,0 +1,5 @@
+[ddraw.dll]
+DirectDrawCreateEx, 4
+
+[d3d8.dll]
+Direct3DCreate8, 1

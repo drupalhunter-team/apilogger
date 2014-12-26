@@ -1,0 +1,7 @@
+EXPORTS
+GetUnhookedFuncAddrByName
+SetHook
+Str2Log
+GetFuncInfoById
+SetPluginHandler2All
+GetUnhookedFuncAddrById

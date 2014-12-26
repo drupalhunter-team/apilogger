@@ -1,0 +1,9 @@
+
+
+@0046BD60,aaaaaa,1
+@00472E90 , PrintAuditMenu, 1
+@0046BD60 PRINT_AuditMenu ,1
+
+
+[user32.dll]
+GetAsyncKeyState , 1

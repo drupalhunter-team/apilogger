@@ -1,0 +1,10 @@
+
+plugin.dll must be copyed to the same folder as inturder.dll
+
+In db.txt
+
+[d3d9.dll]
+Direct3DCreate9, 1
+
+In settings.ini
+PluginHooks=140

@@ -1,0 +1,139 @@
+FUNCDATA table_IDirect3DDevice9[]={
+	{"IDirect3DDevice9_QueryInterface",3},//0
+	{"IDirect3DDevice9_AddRef",1},//1
+	{"IDirect3DDevice9_Release",1},//2
+	{"IDirect3DDevice9_TestCooperativeLevel",1},//3
+	{"IDirect3DDevice9_GetAvailableTextureMem",1},//4
+	{"IDirect3DDevice9_EvictManagedResources",1},//5
+	{"IDirect3DDevice9_GetDirect3D",2},//6
+	{"IDirect3DDevice9_GetDeviceCaps",2},//7
+	{"IDirect3DDevice9_GetDisplayMode",3},//8
+	{"IDirect3DDevice9_GetCreationParameters",2},//9
+	{"IDirect3DDevice9_SetCursorProperties",4},//10
+	{"IDirect3DDevice9_SetCursorPosition",4},//11
+	{"IDirect3DDevice9_ShowCursor",2},//12
+	{"IDirect3DDevice9_CreateAdditionalSwapChain",3},//13
+	{"IDirect3DDevice9_GetSwapChain",3},//14
+	{"IDirect3DDevice9_GetNumberOfSwapChains",1},//15
+	{"IDirect3DDevice9_Reset",2},//16
+	{"IDirect3DDevice9_Present",5},//17
+	{"IDirect3DDevice9_GetBackBuffer",5},//18
+	{"IDirect3DDevice9_GetRasterStatus",3},//19
+	{"IDirect3DDevice9_SetDialogBoxMode",2},//20
+	{"IDirect3DDevice9_SetGammaRamp",4},//21
+	{"IDirect3DDevice9_GetGammaRamp",3},//22
+	{"IDirect3DDevice9_CreateTexture",9},//23
+	{"IDirect3DDevice9_CreateVolumeTexture",10},//24
+	{"IDirect3DDevice9_CreateCubeTexture",8},//25
+	{"IDirect3DDevice9_CreateVertexBuffer",7},//26
+	{"IDirect3DDevice9_CreateIndexBuffer",7},//27
+	{"IDirect3DDevice9_CreateRenderTarget",9},//28
+	{"IDirect3DDevice9_CreateDepthStencilSurface",9},//29
+	{"IDirect3DDevice9_UpdateSurface",5},//30
+	{"IDirect3DDevice9_UpdateTexture",3},//31
+	{"IDirect3DDevice9_GetRenderTargetData",3},//32
+	{"IDirect3DDevice9_GetFrontBufferData",3},//33
+	{"IDirect3DDevice9_StretchRect",6},//34
+	{"IDirect3DDevice9_ColorFill",4},//35
+	{"IDirect3DDevice9_CreateOffscreenPlainSurface",7},//36
+	{"IDirect3DDevice9_SetRenderTarget",3},//37
+	{"IDirect3DDevice9_GetRenderTarget",3},//38
+	{"IDirect3DDevice9_SetDepthStencilSurface",2},//39
+	{"IDirect3DDevice9_GetDepthStencilSurface",2},//40
+	{"IDirect3DDevice9_BeginScene",1},//41
+	{"IDirect3DDevice9_EndScene",1},//42
+	{"IDirect3DDevice9_Clear",7},//43
+	{"IDirect3DDevice9_SetTransform",3},//44
+	{"IDirect3DDevice9_GetTransform",3},//45
+	{"IDirect3DDevice9_MultiplyTransform",3},//46
+	{"IDirect3DDevice9_SetViewport",2},//47
+	{"IDirect3DDevice9_GetViewport",2},//48
+	{"IDirect3DDevice9_SetMaterial",2},//49
+	{"IDirect3DDevice9_GetMaterial",2},//50
+	{"IDirect3DDevice9_SetLight",3},//51
+	{"IDirect3DDevice9_GetLight",3},//52
+	{"IDirect3DDevice9_LightEnable",3},//53
+	{"IDirect3DDevice9_GetLightEnable",3},//54
+	{"IDirect3DDevice9_SetClipPlane",3},//55
+	{"IDirect3DDevice9_GetClipPlane",3},//56
+	{"IDirect3DDevice9_SetRenderState",3},//57
+	{"IDirect3DDevice9_GetRenderState",3},//58
+	{"IDirect3DDevice9_CreateStateBlock",3},//59
+	{"IDirect3DDevice9_BeginStateBlock",1},//60
+	{"IDirect3DDevice9_EndStateBlock",2},//61
+	{"IDirect3DDevice9_SetClipStatus",2},//62
+	{"IDirect3DDevice9_GetClipStatus",2},//63
+	{"IDirect3DDevice9_GetTexture",3},//64
+	{"IDirect3DDevice9_SetTexture",3},//65
+	{"IDirect3DDevice9_GetTextureStageState",4},//66
+	{"IDirect3DDevice9_SetTextureStageState",4},//67
+	{"IDirect3DDevice9_GetSamplerState",4},//68
+	{"IDirect3DDevice9_SetSamplerState",4},//69
+	{"IDirect3DDevice9_ValidateDevice",2},//70
+	{"IDirect3DDevice9_SetPaletteEntries",3},//71
+	{"IDirect3DDevice9_GetPaletteEntries",3},//72
+	{"IDirect3DDevice9_SetCurrentTexturePalette",2},//73
+	{"IDirect3DDevice9_GetCurrentTexturePalette",2},//74
+	{"IDirect3DDevice9_SetScissorRect",2},//75
+	{"IDirect3DDevice9_GetScissorRect",2},//76
+	{"IDirect3DDevice9_SetSoftwareVertexProcessing",2},//77
+	{"IDirect3DDevice9_GetSoftwareVertexProcessing",1},//78
+	{"IDirect3DDevice9_SetNPatchMode",2},//79
+	{"IDirect3DDevice9_GetNPatchMode",1},//80
+	{"IDirect3DDevice9_DrawPrimitive",4},//81
+	{"IDirect3DDevice9_DrawIndexedPrimitive",7},//82
+	{"IDirect3DDevice9_DrawPrimitiveUP",5},//83
+	{"IDirect3DDevice9_DrawIndexedPrimitiveUP",9},//84
+	{"IDirect3DDevice9_ProcessVertices",7},//85
+	{"IDirect3DDevice9_CreateVertexDeclaration",3},//86
+	{"IDirect3DDevice9_SetVertexDeclaration",2},//87
+	{"IDirect3DDevice9_GetVertexDeclaration",2},//88
+	{"IDirect3DDevice9_SetFVF",2},//89
+	{"IDirect3DDevice9_GetFVF",2},//90
+	{"IDirect3DDevice9_CreateVertexShader",3},//91
+	{"IDirect3DDevice9_SetVertexShader",2},//92
+	{"IDirect3DDevice9_GetVertexShader",2},//93
+	{"IDirect3DDevice9_SetVertexShaderConstantF",4},//94
+	{"IDirect3DDevice9_GetVertexShaderConstantF",4},//95
+	{"IDirect3DDevice9_SetVertexShaderConstantI",4},//96
+	{"IDirect3DDevice9_GetVertexShaderConstantI",4},//97
+	{"IDirect3DDevice9_SetVertexShaderConstantB",4},//98
+	{"IDirect3DDevice9_GetVertexShaderConstantB",4},//99
+	{"IDirect3DDevice9_SetStreamSource",5},//100
+	{"IDirect3DDevice9_GetStreamSource",5},//101
+	{"IDirect3DDevice9_SetStreamSourceFreq",3},//102
+	{"IDirect3DDevice9_GetStreamSourceFreq",3},//103
+	{"IDirect3DDevice9_SetIndices",2},//104
+	{"IDirect3DDevice9_GetIndices",2},//105
+	{"IDirect3DDevice9_CreatePixelShader",3},//106
+	{"IDirect3DDevice9_SetPixelShader",2},//107
+	{"IDirect3DDevice9_GetPixelShader",2},//108
+	{"IDirect3DDevice9_SetPixelShaderConstantF",4},//109
+	{"IDirect3DDevice9_GetPixelShaderConstantF",4},//110
+	{"IDirect3DDevice9_SetPixelShaderConstantI",4},//111
+	{"IDirect3DDevice9_GetPixelShaderConstantI",4},//112
+	{"IDirect3DDevice9_SetPixelShaderConstantB",4},//113
+	{"IDirect3DDevice9_GetPixelShaderConstantB",4},//114
+	{"IDirect3DDevice9_DrawRectPatch",4},//115
+	{"IDirect3DDevice9_DrawTriPatch",4},//116
+	{"IDirect3DDevice9_DeletePatch",2},//117
+	{"IDirect3DDevice9_CreateQuery",3},//118
+};
+void Hook_IDirect3DDevice9(DWORD* p){
+	static int fNotFirst = 0;
+
+	if(!fNotFirst){
+		fNotFirst = 1;
+		for(DWORD i = 0; i < 119; i++){
+			SFUNCTION finfo={0};
+			if(i==0){
+				finfo.BeforeFunc = (PPLUG_BEFORE)before_IUnknown_QueryInterface;
+			}
+
+			DWORD MethodAddress = GetMethodAddr((DWORD**)*p, i);
+			finfo.pName = table_IDirect3DDevice9[i].pName;
+			finfo.params= table_IDirect3DDevice9[i].Params;
+			SetHook(MethodAddress, &finfo);
+		}
+	}
+}

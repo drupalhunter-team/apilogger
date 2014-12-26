@@ -1,0 +1,8 @@
+[kernel32.dll]
+CreateFileA, 5
+CreateFileW, 5
+FindFirstFileA, 2
+FindNextFileA, 1
+ReadFile, 7
+WriteFile, 7
+SetFilePointer, 4

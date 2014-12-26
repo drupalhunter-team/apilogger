@@ -1,0 +1,124 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINTOOL DIALOGEX 0, 0, 234, 66
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST | WS_EX_ACCEPTFILES
+CAPTION "imex2spy"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&GO",IDGO,195,3,37,33,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "E&xit",IDCANCEL,195,36,37,28,0,WS_EX_STATICEDGE
+    EDITTEXT        IDC_SRC_PATH,20,8,137,12,ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_DST_PATH,20,22,137,12,ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "...",IDC_SRC_SEL,159,8,16,13,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "...",IDC_DST_SEL,159,22,16,13,0,WS_EX_STATICEDGE
+    RTEXT           "File:",IDC_STATIC,5,9,13,8
+    RTEXT           "DB:",IDC_STATIC,2,23,16,10
+    GROUPBOX        "",IDC_STATIC,0,0,194,36
+    CONTROL         "&Import (EXE)",IDC_IMP,"Button",BS_AUTORADIOBUTTON,4,41,57,9
+    CONTROL         "&Export (DLL)",IDC_EXP,"Button",BS_AUTORADIOBUTTON,4,54,55,10
+    EDITTEXT        IDC_PARAMS,158,40,13,12,ES_RIGHT | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "Params:",IDC_STATIC,122,41,30,8
+    PUSHBUTTON      ">",IDC_OPENDST,176,22,16,13,0,WS_EX_STATICEDGE
+    CONTROL         "&Delay",IDC_IMP_DELAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,41,33,10
+    CONTROL         "&Unmangle",IDC_UNMANGLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,54,50,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAINTOOL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 227
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

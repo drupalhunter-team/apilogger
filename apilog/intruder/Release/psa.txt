@@ -1,0 +1,67 @@
+
+[xrGame.dll]
+??0CDialogHolder@@QAE@ABV0@@Z, 3
+??0CDialogHolder@@QAE@XZ, 3
+??0CxFile@@QAE@ABV0@@Z, 3
+??0CxFile@@QAE@XZ, 3
+??0CxIOFile@@QAE@ABV0@@Z, 3
+??0CxIOFile@@QAE@PAU_iobuf@@@Z, 3
+??0CxMemFile@@QAE@ABV0@@Z, 3
+??1CDialogHolder@@UAE@XZ, 3
+??1CxFile@@UAE@XZ, 3
+??1CxIOFile@@UAE@XZ, 3
+??1CxImage@@UAE@XZ, 3
+??4CDialogHolder@@QAEAAV0@ABV0@@Z, 3
+??4CxFile@@QAEAAV0@ABV0@@Z, 3
+??4CxIOFile@@QAEAAV0@ABV0@@Z, 3
+??4CxMemFile@@QAEAAV0@ABV0@@Z, 3
+??_7CDialogHolder@@6B@, 3
+??_7CxFile@@6B@, 3
+??_7CxIOFile@@6B@, 3
+??_7CxImage@@6B@, 3
+??_7CxMemFile@@6B@, 3
+??_FCxIOFile@@QAEXXZ, 3
+??_FCxImage@@QAEXXZ, 3
+??_FCxMemFile@@QAEXXZ, 3
+??_OCxImage@@QAEXAAV0@@Z, 3
+?AddDialogToRender@CDialogHolder@@QAEXPAVCUIWindow@@@Z, 3
+?CleanInternals@CDialogHolder@@IAEXXZ, 3
+?Close@CxIOFile@@UAE_NXZ, 3
+;	?DoRenderDialogs@CDialogHolder@@IAEXXZ, 3
+?Eof@CxIOFile@@UAE_NXZ, 3
+?Error@CxIOFile@@UAEJXZ, 3
+?Flush@CxIOFile@@UAE_NXZ, 3
+?GetC@CxIOFile@@UAEJXZ, 3
+?GetS@CxIOFile@@UAEPADPADH@Z, 3
+?IR_UIOnKeyboardHold@CDialogHolder@@UAE_NH@Z, 3
+?IR_UIOnKeyboardPress@CDialogHolder@@UAE_NH@Z, 3
+?IR_UIOnKeyboardRelease@CDialogHolder@@UAE_NH@Z, 3
+;	?IR_UIOnMouseMove@CDialogHolder@@UAE_NHH@Z, 3
+?IR_UIOnMouseWheel@CDialogHolder@@UAE_NH@Z, 3
+?IgnorePause@CDialogHolder@@UAE_NXZ, 3
+?OnExternalHideIndicators@CDialogHolder@@QAEXXZ, 3
+;	?OnFrame@CDialogHolder@@UAGXXZ, 3
+?Open@CxIOFile@@QAE_NPBD0@Z, 3
+?PutC@CxFile@@UAE_NE@Z, 3
+?PutC@CxIOFile@@UAE_NE@Z, 3
+?Read@CxIOFile@@UAEIPAXII@Z, 3
+?RemoveDialogToRender@CDialogHolder@@QAEXPAVCUIWindow@@@Z, 3
+?Scanf@CxIOFile@@UAEJPBDPAX@Z, 3
+?Seek@CxIOFile@@UAE_NJH@Z, 3
+?SetMainInputReceiver@CDialogHolder@@AAEXPAVCUIDialogWnd@@_N@Z, 3
+?Size@CxIOFile@@UAEJXZ, 3
+?StartDialog@CDialogHolder@@UAEXPAVCUIDialogWnd@@_N@Z, 3
+?StartMenu@CDialogHolder@@AAEXPAVCUIDialogWnd@@_N@Z, 3
+?StopDialog@CDialogHolder@@UAEXPAVCUIDialogWnd@@@Z, 3
+?StopMenu@CDialogHolder@@AAEXPAVCUIDialogWnd@@@Z, 3
+?Tell@CxIOFile@@UAEJXZ, 3
+?TopInputReceiver@CDialogHolder@@QAEPAVCUIDialogWnd@@XZ, 3
+?UseIndicators@CDialogHolder@@UAE_NXZ, 3
+?Write@CxIOFile@@UAEIPBXII@Z, 3
+xrFactory_Create, 3
+xrFactory_Destroy, 3
+
+
+[xrCore.dll]
+	??0?$IReaderBase@VCStreamReader@@@@QAE@ABV0@@Z , 3
+    
